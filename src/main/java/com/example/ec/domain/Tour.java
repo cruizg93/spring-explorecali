@@ -26,7 +26,7 @@ public class Tour implements Serializable{
 	@Column(length=2000)
 	private String description;
 	
-	@Column
+	@Column(length=2000)
 	private String blurb;
 	
 	@Column
